@@ -1,0 +1,10 @@
+path: C:/Users/Administrator/Documents/InvToStr_YOLO/dataset_small
+train: images/train
+val: images/val
+test: images/test  # Optional: Used only for evaluation
+nc: 35  # Adjust according to your dataset
+names: ["TABLE", "INVOICE_INFO", "BUYER", "DATE", "NUMBER", "NOTE", "SELLER_EMAIL", "SELLER_NAME", 
+        "TOTAL", "TOTAL_WORDS", "GSTIN", "LOGO", "OTHER", "TAX", "DISCOUNT", "BILL_TO", 
+        "GST(7%)", "PO_NUMBER", "SELLER_SITE", "SELLER_ADDRESS", "GST(12%)", "SUB_TOTAL", 
+        "GST(5%)", "CONDITIONS", "GSTIN_SELLER", "TITLE", "GST(9%)", "SEND_TO", "GST(1%)", 
+        "GSTIN_BUYER", "PAYMENT_DETAILS", "GST(18%)", "GST(20%)", "AMOUNT_DUE", "DUE_DATE"]
